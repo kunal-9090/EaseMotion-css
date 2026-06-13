@@ -218,6 +218,7 @@
    ──────────────────────────────────────────────────────────── */
 
 .ease-overflow-hidden  { overflow: hidden !important; }
+.ease-overflow-visible { overflow: visible !important; }
 .ease-overflow-auto    { overflow: auto !important; }
 .ease-overflow-scroll  { overflow: scroll !important; }
 .ease-overflow-x-auto  { overflow-x: auto !important; }

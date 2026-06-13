@@ -259,6 +259,7 @@
 .ease-text-left    { text-align: left !important; }
 .ease-text-center  { text-align: center !important; }
 .ease-text-right   { text-align: right !important; }
+.ease-text-justify { text-align: justify !important; }
 
 .ease-font-light    { font-weight: 300 !important; }
 .ease-font-regular  { font-weight: 400 !important; }

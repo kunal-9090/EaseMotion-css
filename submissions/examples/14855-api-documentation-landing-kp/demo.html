@@ -1,25 +1,62 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>API Documentation Landing Page</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header class="nav"><strong>DevPortal</strong><nav><a href="#docs">Docs</a><a href="#sdks">SDKs</a><a href="#status">Status</a></nav></header>
-  <main>
-    <section class="hero">
-      <div><p class="eyebrow">API docs that developers can scan</p><h1>Publish guides, references, SDKs, and changelogs in one clean portal.</h1><p>A full documentation landing page with endpoint previews, SDK cards, and status signals.</p><a class="button" href="#docs">Read the docs</a></div>
-      <aside class="code-card"><span>GET /v1/projects</span><code>{ "status": "ok", "latency": "42ms" }</code><span class="cursor"></span></aside>
-    </section>
-    <section id="sdks" class="cards">
-      <article><h2>Quickstart guides</h2><p>Help developers get a working API call in minutes.</p></article>
-      <article><h2>SDK examples</h2><p>Show JavaScript, Python, Go, and curl snippets side by side.</p></article>
-      <article><h2>Changelog feed</h2><p>Surface breaking changes and new endpoint releases clearly.</p></article>
-    </section>
-    <section id="status" class="panel"><p class="eyebrow">Platform status</p><div class="stats"><span><strong>200</strong> healthy</span><span><strong>42ms</strong> p95</span><span><strong>4 SDKs</strong> ready</span></div></section>
-  </main>
-  <footer id="docs">API documentation landing page demo.</footer>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>API Documentation Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="nav">
+      <strong>DevPortal</strong>
+      <nav>
+        <a href="#docs">Docs</a><a href="#sdks">SDKs</a
+        ><a href="#status">Status</a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div>
+          <p class="eyebrow">API docs that developers can scan</p>
+          <h1>
+            Publish guides, references, SDKs, and changelogs in one clean
+            portal.
+          </h1>
+          <p>
+            A full documentation landing page with endpoint previews, SDK cards,
+            and status signals.
+          </p>
+          <a class="button" href="#docs">Read the docs</a>
+        </div>
+        <aside class="code-card">
+          <span>GET /v1/projects</span
+          ><code>{ "status": "ok", "latency": "42ms" }</code
+          ><span class="cursor"></span>
+        </aside>
+      </section>
+      <section id="sdks" class="cards">
+        <article>
+          <h2>Quickstart guides</h2>
+          <p>Help developers get a working API call in minutes.</p>
+        </article>
+        <article>
+          <h2>SDK examples</h2>
+          <p>Show JavaScript, Python, Go, and curl snippets side by side.</p>
+        </article>
+        <article>
+          <h2>Changelog feed</h2>
+          <p>Surface breaking changes and new endpoint releases clearly.</p>
+        </article>
+      </section>
+      <section id="status" class="panel">
+        <p class="eyebrow">Platform status</p>
+        <div class="stats">
+          <span><strong>200</strong> healthy</span
+          ><span><strong>42ms</strong> p95</span
+          ><span><strong>4 SDKs</strong> ready</span>
+        </div>
+      </section>
+    </main>
+    <footer id="docs">API documentation landing page demo.</footer>
+  </body>
 </html>

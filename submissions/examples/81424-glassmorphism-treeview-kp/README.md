@@ -1,11 +1,8 @@
-# Animated Glassmorphism Treeview
+# Glassmorphism Treeview
 
-Responsive no-JavaScript treeview navigation demo for issue #81424.
+A responsive CSS-only treeview component for showing nested product files and folders. It uses native details/summary behavior, translucent glass panels, hover feedback, and colored folder/file states.
 
-## Features
+## Files
 
-- Native details/summary expand and collapse
-- Keyboard-friendly focus states
-- Animated nested groups and branch connectors
-- Responsive glassmorphism styling
-- Reduced-motion fallback
+- demo.html: Accessible treeview markup with nested folders.
+- style.css: Glassmorphism layout, disclosure spacing, and responsive styling.
